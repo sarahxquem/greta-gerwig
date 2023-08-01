@@ -1,0 +1,62 @@
+@keyframes Vibration {
+	0% {
+		transform: translate(0);
+	}
+
+	20% {
+		transform: translate(-2px, 2px);
+	}
+
+	40% {
+		transform: translate(-2px, -2px);
+	}
+
+	60% {
+		transform: translate(2px, 2px);
+	}
+
+	80% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+h1{
+	font-size: 40px;
+	width: 350px;
+	margin: auto;
+	text-align: center;
+	animation : Vibration 2s ease 0s 1 normal forwards;
+}
+
+p{
+	width: 50%;
+	margin: auto;
+}
+body{
+	margin: auto;
+	min-height: 100vh;
+	background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%); 
+  	font-family: 'Alegreya Sans', sans-serif;
+  	 }
+#ladybird{
+  	background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  }
+#littlewomen{
+	background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+}
+#barbie{
+background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+}
+div{
+	 display: flex;
+     justify-content: space-around;
+     align-items: center;
+      }
+img{
+	max-width: 20%;
+	height: auto;
+	border-radius: 10px;
+    }
